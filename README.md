@@ -20,26 +20,47 @@ Hemde İyi Niyetli Yazilimlarimi Artik Bu Repoma Atacagim MarkOs_Hack Repoma Bir
 
 ### Kurulum Paketi
 pkg install git -y 
+
 pkg install python -y 
+
 apt upgrade -y
+
 apt update -y
+
 pip install colorama 
+
 pip install requests
+
 git clone https://github.com/memetcanwq31-ship-it/MarkOsXveil.git
-cd MarkOs_Hack
+
+cd MarkOsXveil
+
 pip install -r requirements.txt
+
 pip install pillow 
+
 pip install requests 
+
 pip install httpx 
+
 pip install console 
+
 pip install rich 
+
 pkg install sudo 
+
 sudo install pillow
+
 pip install getting
+
 pip install delay
+
 pip install psutil
+
 pkg install python-psutil -y
+
 pkg install clang python build-essential -y
+
 pkg install clang python-dev tur-repo -y
 # Her iki cihazda:
 pip install cryptography
