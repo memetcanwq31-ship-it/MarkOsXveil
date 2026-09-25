@@ -18,13 +18,35 @@ Hemde İyi Niyetli Yazilimlarimi Artik Bu Repoma Atacagim MarkOs_Hack Repoma Bir
 
 *Kali Linux isletim sistemi kullananlarin işine yarayacagi sistem yapiyorum Daha Dogrusu Gelistiriyorum Şuanlik Durum Bu Şekildedir Kurulumunuda Belirtecetim.*
 
-
-**Kali/ Termux Kullanim**
-# pip install -r requirements.txt
-# python3 Veil.py                          # menü
-# python3 Veil.py -t Evasion --list-payloads
-# python3 Veil.py -t Evasion -p #python/aes_xor_rev -c LHOST=10.0.0.5 #LPORT=4444 -o deneme
-# python3 Veil.py -t Ordnance -e xor --
-# ordnance-payload windows/x64/exec --
-# msfoptions CMD=calc.exe
-**Termux ve Kali Linux Kullanicilarina Özel**
+###
+**Kali/ Termux Kurulum**
+pkg install git -y 
+pkg install python -y 
+apt upgrade -y
+apt update -y
+pip install colorama 
+pip install requests
+git clone https://github.com/memetcanwq31-ship-it/MarkOsXveil.git
+cd MarkOs_Hack
+pip install -r requirements.txt
+pip install pillow 
+pip install requests 
+pip install httpx 
+pip install console 
+pip install rich 
+pkg install sudo 
+sudo install pillow
+pip install getting
+pip install delay
+pip install psutil
+pkg install python-psutil -y
+pkg install clang python build-essential -y
+pkg install clang python-dev tur-repo -y
+# Her iki cihazda:
+pip install cryptography
+pkg install tur-repo -y
+pkg install python-cryptography -y
+pkg install clang rust make python-build-essential libffi openssl -y
+pip install phonenumbers requests
+pip install pycryptodome
+###
