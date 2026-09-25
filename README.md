@@ -1,39 +1,49 @@
 # MarkOsXveil
 
-> Eğitim amaçlı geliştirilen bir araç/deney reposu. Bu proje, güvenlik araştırması, etik hackerlik ve sistem öğrenimi için uygun bir örnek çalışma alanı olarak tasarlanmıştır.
-
 <p align="center">
   <img src="https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9" alt="MarkOsXveil Görseli" width="900" />
 </p>
+
+> Eğitim amaçlı geliştirilen bir projedir. Bu repo, öğrenme, araştırma ve Python tabanlı araç geliştirme pratiği için hazırlanmıştır.
+
+## İçindekiler
+
+- [Hakkında](#hakkında)
+- [Özellikler](#özellikler)
+- [Gereksinimler](#gereksinimler)
+- [Kurulum](#kurulum)
+- [Kullanım](#kullanım)
+- [Yapı](#yapı)
+- [Uyarı ve Sorumluluk](#uyarı-ve-sorumluluk)
+- [Katkı](#katkı)
 
 ## Hakkında
 
 Merhaba arkadaşlar,
 
-Bu repo, eğitim ve öğrenme amacıyla oluşturulmuştur. İçeriklerde yer alan araçlar, güvenlik alanında öğrenme ve araştırma amacıyla tasarlanmış örneklerdir. Herhangi bir sistem üzerinde izinsiz erişim, zarar verme veya yetkisiz kullanım amaçlı değildir.
+Bu repo, eğitim ve öğrenme amacıyla oluşturulmuştur. Python diliyle geliştirme yaparken sistem, ağ ve güvenlik konularına dair örnekler ve pratikler üzerinde çalışmak için tasarlanmıştır.
 
 Amaç:
-- Öğrenme ve araştırma ortamı oluşturmak
-- Python tabanlı araç geliştirme pratiği yapmak
-- Güvenlik ve sistem mimarisi konularında deneyim kazanmak
-
-## Uyarı ve Sorumluluk
-
-Bu proje tamamen eğitim amaçlıdır. Kullanıcıların hedef sistemlere izinsiz erişim veya yasal olmayan faaliyetlerde bulunması teşvik edilmez. Yürürlükteki mevzuat ve etik kurallara uygun davranılmalıdır.
+- Python tabanlı uygulama geliştirme becerisini artırmak
+- Sistem ve ağ konularını öğrenmek
+- Araştırma ve eğitim odaklı örnekler üretmek
 
 ## Özellikler
 
 - Python tabanlı geliştirme
-- Eğitim odaklı örnekler
-- Termux / Kali Linux uyumluluğu düşünülerek tasarım
-- Güvenlik ve sistem konularında öğrenme hedefi
+- Eğitim ve öğrenme odaklı tasarım
+- Termux / Kali Linux uyum düşüncesi
+- Sistem ve ağ konularına yönelik örnek çalışma alanı
+- Basit ve okunabilir proje yapısı
 
 ## Gereksinimler
+
+Aşağıdaki araçlar kurulu olmalıdır:
 
 - Python 3.x
 - pip
 - Git
-- Linux / Termux tabanlı ortam
+- Linux / Termux / benzeri bir ortam
 
 ## Kurulum
 
@@ -46,9 +56,21 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Geliştirme Ortamı
+### Alternatif bağımlılık kurulumu
 
-Proje, Python ve gerekli bağımlılıklar kurularak geliştirme ortamına hazır hale gelir. Gerekli paketler `requirements.txt` dosyasında listelenir.
+```bash
+pip install colorama requests httpx rich pillow psutil phonenumbers pycryptodome
+```
+
+## Kullanım
+
+Projeyi kullanmadan önce ortamınızın yasal ve etik kurallara uygun olduğundan emin olun.
+
+```bash
+python main.py
+```
+
+Eğer repo içindeki dosya isimleri farklıysa, ilgili dosyayı çalıştırmanız gerekebilir. Proje yapısı ve dosya düzeni zamanla değişebilir.
 
 ## Yapı
 
@@ -56,28 +78,35 @@ Proje, Python ve gerekli bağımlılıklar kurularak geliştirme ortamına hazı
 MarkOsXveil/
 ├── README.md
 ├── requirements.txt
+├── main.py
 ├── src/
 ├── scripts/
 ├── tools/
-└── docs/
+├── docs/
+└── tests/
 ```
 
-## Kullanım
+## Uyarı ve Sorumluluk
 
-Projeyi kullanmadan önce ortamınızın yasal ve etik kurallara uygun olduğundan emin olun. Bu repo sadece eğitim amaçlıdır ve üretim ortamında kullanılmamalıdır.
+Bu proje tamamen eğitim ve öğrenme amaçlıdır.
+
+- İzinsiz erişim teşvik edilmez
+- Yasalara aykırı kullanım desteklenmez
+- Kullanıcıların etik ve hukuki kurallara uyması gerekir
+- Bu repo, güvenlik araştırması için araç üretmek yerine öğrenme alanı olarak tasarlanmıştır
 
 ## Katkı
 
 Katkı yapmak isterseniz:
 
 1. Repo'yu forklayın
-2. Kendi dalınızı oluşturun
-3. Değişiklikleri ekleyin
+2. Kendi branch'inizi oluşturun
+3. Değişikliklerinizi ekleyin
 4. Pull request açın
 
 ## Not
 
-Bu repo, eğitim ve öğrenme amacıyla hazırlanmıştır. İçeriklerin kullanımında her zaman etik ve yasal kurallara uyulmalıdır.
+Bu repo yalnızca öğrenme ve araştırma amacıyla hazırlanmıştır. İçeriklerin kullanımı sırasında her zaman etik ve yasal kurallara uyulmalıdır.
 
 ---
 
