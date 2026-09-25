@@ -4,29 +4,35 @@
   <img src="https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9" alt="MarkOsXveil Görseli" width="900" />
 </p>
 
-> Eğitim amaçlı geliştirilen bir projedir. Bu repo, öğrenme, araştırma ve Python tabanlı araç geliştirme pratiği için hazırlanmıştır.
+> Eğitim amaçlı geliştirilen bir proje. Bu repo, öğrenme, araştırma ve Python tabanlı araç geliştirme pratiği için hazırlanmıştır.
 
 ## İçindekiler
 
 - [Hakkında](#hakkında)
+- [Amaç](#amaç)
 - [Özellikler](#özellikler)
 - [Gereksinimler](#gereksinimler)
 - [Kurulum](#kurulum)
 - [Kullanım](#kullanım)
-- [Yapı](#yapı)
+- [Proje Yapısı](#proje-yapısı)
 - [Uyarı ve Sorumluluk](#uyarı-ve-sorumluluk)
 - [Katkı](#katkı)
+- [Not](#not)
 
 ## Hakkında
 
 Merhaba arkadaşlar,
 
-Bu repo, eğitim ve öğrenme amacıyla oluşturulmuştur. Python diliyle geliştirme yaparken sistem, ağ ve güvenlik konularına dair örnekler ve pratikler üzerinde çalışmak için tasarlanmıştır.
+Bu repo eğitim ve öğrenme amacıyla oluşturulmuştur. Python diliyle geliştirme yaparken sistem, ağ, güvenlik ve otomasyon alanlarına dair örnekler ve pratikler üzerinde çalışmak için tasarlanmıştır.
 
-Amaç:
+MarkOsXveil, öğrenme odaklı bir geliştirme ortamı olarak düşünülmüştür. İçeriklerin amacı, teorik bilgiyi pratiğe dökmek ve basit, anlaşılır örnekler üretmektir.
+
+## Amaç
+
 - Python tabanlı uygulama geliştirme becerisini artırmak
-- Sistem ve ağ konularını öğrenmek
+- Sistem, ağ ve güvenlik konularını öğrenmek
 - Araştırma ve eğitim odaklı örnekler üretmek
+- Geliştirme alışkanlığını ve proje yönetimini öğrenmek
 
 ## Özellikler
 
@@ -34,7 +40,8 @@ Amaç:
 - Eğitim ve öğrenme odaklı tasarım
 - Termux / Kali Linux uyum düşüncesi
 - Sistem ve ağ konularına yönelik örnek çalışma alanı
-- Basit ve okunabilir proje yapısı
+- Okunabilir ve düzenli proje yapısı
+- Basit kurulum ve kullanım akışı
 
 ## Gereksinimler
 
@@ -43,20 +50,32 @@ Aşağıdaki araçlar kurulu olmalıdır:
 - Python 3.x
 - pip
 - Git
-- Linux / Termux / benzeri bir ortam
+- Linux, Termux veya benzeri bir ortam
 
 ## Kurulum
+
+### 1) Repo'yu klonlayın
 
 ```bash
 git clone https://github.com/memetcanwq31-ship-it/MarkOsXveil.git
 cd MarkOsXveil
+```
+
+### 2) Sanal ortam oluşturun
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
+
+### 3) Bağımlılıkları kurun
+
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Alternatif bağımlılık kurulumu
+### 4) İsterseniz manuel bağımlılık kurulumu
 
 ```bash
 pip install colorama requests httpx rich pillow psutil phonenumbers pycryptodome
@@ -72,7 +91,7 @@ python main.py
 
 Eğer repo içindeki dosya isimleri farklıysa, ilgili dosyayı çalıştırmanız gerekebilir. Proje yapısı ve dosya düzeni zamanla değişebilir.
 
-## Yapı
+## Proje Yapısı
 
 ```text
 MarkOsXveil/
@@ -83,7 +102,9 @@ MarkOsXveil/
 ├── scripts/
 ├── tools/
 ├── docs/
-└── tests/
+├── tests/
+├── assets/
+└── LICENSE
 ```
 
 ## Uyarı ve Sorumluluk
@@ -94,6 +115,7 @@ Bu proje tamamen eğitim ve öğrenme amaçlıdır.
 - Yasalara aykırı kullanım desteklenmez
 - Kullanıcıların etik ve hukuki kurallara uyması gerekir
 - Bu repo, güvenlik araştırması için araç üretmek yerine öğrenme alanı olarak tasarlanmıştır
+- Her türlü kullanımda sorumluluk kullanıcıya aittir
 
 ## Katkı
 
