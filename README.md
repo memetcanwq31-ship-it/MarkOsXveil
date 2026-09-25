@@ -1,7 +1,10 @@
 # Arkadaşlar Veil 2.0 Sürümü Tam Gelismis aractir Denemenizi Tavsiye Ederim 
 
 
-![Resim açıklaması](https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9)
+![Resim açıklaması](https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9).
+<p align="center">
+  <img src="https://https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9" alt="Resim açıklaması" width="1000">
+</p>
 
 
 # MarkOsXveil
