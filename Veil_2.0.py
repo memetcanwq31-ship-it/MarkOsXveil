@@ -37,7 +37,7 @@ except ImportError:
         def __getattr__(self, n): return ""
     C, S = _C(), ""
 
-VERSION = "1.0"
+VERSION = "2.0"
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "output")
 
 # ============================================================
