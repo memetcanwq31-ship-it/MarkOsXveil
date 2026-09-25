@@ -2,7 +2,9 @@
 
 > Eğitim amaçlı geliştirilen bir araç/deney reposu. Bu proje, güvenlik araştırması, etik hackerlik ve sistem öğrenimi için uygun bir örnek çalışma alanı olarak tasarlanmıştır.
 
-[![Görsel](https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9)](https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9)
+<p align="center">
+  <img src="https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9" alt="MarkOsXveil Görseli" width="900" />
+</p>
 
 ## Hakkında
 
