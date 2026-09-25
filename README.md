@@ -1,77 +1,82 @@
-# Arkadaşlar Veil 2.0 Sürümü Tam Gelismis aractir Denemenizi Tavsiye Ederim
-
-[![Resim açıklaması](https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9)](https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9)
-
 # MarkOsXveil
-Öncelikle Selamlar Arkadaslar 
-Bu Repoyu neden actim diye soracaksiniz 
-Buradaki Amac 
-Hem Kotu Niyetli Yazilim Yazma Trojen gibi
-Hemde İyi Niyetli Yazilimlarimi Artik Bu Repoma Atacagim MarkOs_Hack Repoma Biraz Ara Verecegim Şuanlik Durum böyledir 
 
-# Malware 
-**Trojen Örnek Rat vb. gibi araclar yazacagiz* 
+> Eğitim amaçlı geliştirilen bir araç/deney reposu. Bu proje, güvenlik araştırması, etik hackerlik ve sistem öğrenimi için uygun bir örnek çalışma alanı olarak tasarlanmıştır.
 
-# Tamamen Egitim Amaclidir siz Sakin Sistemi Bozmaya Kalkismayin Türk Ceza Kanunu 243 Maddesi ve 244 maddesine Göre Agir Suçtur Biz Sadece Egitim Amaçli Yaziyoruz Yani Ben 
+[![Görsel](https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9)](https://photos.app.goo.gl/Q8ev3qbUD3id7VzE9)
 
-*Kali Linux isletim sistemi kullananlarin işine yarayacagi sistem yapiyorum Daha Dogrusu Gelistiriyorum Şuanlik Durum Bu Şekildedir Kurulumunuda Belirtecetim.*
+## Hakkında
 
-### Kurulum Paketi
-pkg install git -y 
+Merhaba arkadaşlar,
 
-pkg install python -y 
+Bu repo, eğitim ve öğrenme amacıyla oluşturulmuştur. İçeriklerde yer alan araçlar, güvenlik alanında öğrenme ve araştırma amacıyla tasarlanmış örneklerdir. Herhangi bir sistem üzerinde izinsiz erişim, zarar verme veya yetkisiz kullanım amaçlı değildir.
 
-apt upgrade -y
+Amaç:
+- Öğrenme ve araştırma ortamı oluşturmak
+- Python tabanlı araç geliştirme pratiği yapmak
+- Güvenlik ve sistem mimarisi konularında deneyim kazanmak
 
-apt update -y
+## Uyarı ve Sorumluluk
 
-pip install colorama 
+Bu proje tamamen eğitim amaçlıdır. Kullanıcıların hedef sistemlere izinsiz erişim veya yasal olmayan faaliyetlerde bulunması teşvik edilmez. Yürürlükteki mevzuat ve etik kurallara uygun davranılmalıdır.
 
-pip install requests
+## Özellikler
 
+- Python tabanlı geliştirme
+- Eğitim odaklı örnekler
+- Termux / Kali Linux uyumluluğu düşünülerek tasarım
+- Güvenlik ve sistem konularında öğrenme hedefi
+
+## Gereksinimler
+
+- Python 3.x
+- pip
+- Git
+- Linux / Termux tabanlı ortam
+
+## Kurulum
+
+```bash
 git clone https://github.com/memetcanwq31-ship-it/MarkOsXveil.git
-
 cd MarkOsXveil
-
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
+```
 
-pip install pillow 
+## Geliştirme Ortamı
 
-pip install requests 
+Proje, Python ve gerekli bağımlılıklar kurularak geliştirme ortamına hazır hale gelir. Gerekli paketler `requirements.txt` dosyasında listelenir.
 
-pip install httpx 
+## Yapı
 
-pip install console 
+```text
+MarkOsXveil/
+├── README.md
+├── requirements.txt
+├── src/
+├── scripts/
+├── tools/
+└── docs/
+```
 
-pip install rich 
+## Kullanım
 
-pkg install sudo 
+Projeyi kullanmadan önce ortamınızın yasal ve etik kurallara uygun olduğundan emin olun. Bu repo sadece eğitim amaçlıdır ve üretim ortamında kullanılmamalıdır.
 
-sudo install pillow
+## Katkı
 
-pip install getting
+Katkı yapmak isterseniz:
 
-pip install delay
+1. Repo'yu forklayın
+2. Kendi dalınızı oluşturun
+3. Değişiklikleri ekleyin
+4. Pull request açın
 
-pip install psutil
+## Not
 
-pkg install python-psutil -y
+Bu repo, eğitim ve öğrenme amacıyla hazırlanmıştır. İçeriklerin kullanımında her zaman etik ve yasal kurallara uyulmalıdır.
 
-pkg install clang python build-essential -y
+---
 
-pkg install clang python-dev tur-repo -y
-# Her iki cihazda:
-
-pip install cryptography
-
-pkg install tur-repo -y
-
-pkg install python-cryptography -y
-
-pkg install clang rust make python-build-
-essential libffi openssl -y
-
-pip install phonenumbers requests
-
-pip install pycryptodome
-### Termux / Kali Linux için kurulum
+© 2025 MarkOsXveil
