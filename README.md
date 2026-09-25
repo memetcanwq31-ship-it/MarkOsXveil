@@ -63,10 +63,17 @@ pkg install clang python build-essential -y
 
 pkg install clang python-dev tur-repo -y
 # Her iki cihazda:
+
 pip install cryptography
+
 pkg install tur-repo -y
+
 pkg install python-cryptography -y
-pkg install clang rust make python-build-essential libffi openssl -y
+
+pkg install clang rust make python-build-
+essential libffi openssl -y
+
 pip install phonenumbers requests
+
 pip install pycryptodome
 ### Termux / Kali Linux için kurulum
