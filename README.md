@@ -18,8 +18,7 @@ Hemde İyi Niyetli Yazilimlarimi Artik Bu Repoma Atacagim MarkOs_Hack Repoma Bir
 
 *Kali Linux isletim sistemi kullananlarin işine yarayacagi sistem yapiyorum Daha Dogrusu Gelistiriyorum Şuanlik Durum Bu Şekildedir Kurulumunuda Belirtecetim.*
 
-###
-**Kali/ Termux Kurulum**
+### Kurulum Paketi
 pkg install git -y 
 pkg install python -y 
 apt upgrade -y
@@ -49,4 +48,4 @@ pkg install python-cryptography -y
 pkg install clang rust make python-build-essential libffi openssl -y
 pip install phonenumbers requests
 pip install pycryptodome
-###
+### Termux / Kali Linux için kurulum
