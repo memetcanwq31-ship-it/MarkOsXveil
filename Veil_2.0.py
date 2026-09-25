@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # ============================================================
-#  YERLI VEIL FRAMEWORK v1.0  -  github.com/memetcanwq31
+#  YERLI VEIL FRAMEWORK v2.0  -  github.com/memetcanwq31
 #  MALWARE GENERATION SUITE  (Evasion + Ordnance birleşik)
 # ============================================================
 
@@ -246,9 +246,9 @@ def main_menu():
     title_screen()
     ev, ordn = Evasion(), Ordnance()
     while True:
-        print(f"\n{C.GREEN}  [1] Evasion   - Payload uretimi (AES+XOR+Base64 stager)")
-        print(f"{C.GREEN}  [2] Ordnance  - Shellcode uretimi (msfvenom + encoder)")
-        print(f"{C.GREEN}  [3] Troll     - Sahte virüs simülasyonu")
+        print(f"\n{C.GREEN}  [1] Evasion   - Payload Trojen uretimi ")
+        print(f"{C.GREEN}  [2] Ordnance  - Shellcode uretimi ")
+        print(f"{C.GREEN}  [3] Troll     - şaka amacli virus similasyonu")
         print(f"{C.GREEN}  [4] Clean     - Output temizle")
         print(f"{C.GREEN}  [0] Exit")
         c = input(f"\n{C.RED}YerliVeil> {S}").strip()
